@@ -1,0 +1,120 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+    <link rel="icon" href="styles/logo.jpg" />
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav aria-label="nav" id="headNav">
+                <a href="index.html">
+                    <img class="logo" src="styles/logo.jpg" id="logo" alt="Logo">
+                </a>
+                <span classs="centerNav">
+                    <span class="n-allowed"> חומרי גלם שנצטרך </span>&nbsp;|&nbsp;
+                    <span> <a href="typs.html">סוגי שעוות </a> </span>&nbsp;|&nbsp;
+                    <span> <a href="steps.html">שלבי הכנה לנר המושלם</a> </span>&nbsp;|&nbsp;
+                    <span class="n-allowed"> טיפים ושדרוגים </span>&nbsp;|&nbsp;
+                </span>
+                <span class="leftNav">
+                    <span> <a href="odot.html">אודות</a> </span>&nbsp;|&nbsp;
+                    <span> <a href="contact.html">צור קשר</a> </span>
+                </span>
+
+            </nav>
+        </header>
+
+        <form>
+            <div class="conectform">
+                <div id="form-titles">
+                    <h1>צור קשר</h1><br>
+                    <h2>השאר פרטים ונחזור אלייך </h2><br>
+                </div>
+                <label for="first name">
+                    שם מלא* <br>
+                    <input id="firstName" type="text" placeholder="הזן שם פרטי ושם משפחה" required=""><br>
+                </label>
+
+                <br>
+
+                <legend>
+                    <span class="star"></span>מגדר<br />
+                </legend>
+
+                <label for="female" class="gender">
+                    <input id="female" type="radio" name="gender" checked />נקבה
+                </label><br />
+                <label for="male" class="gender">
+                    <input id="male" type="radio" name="gender" />זכר
+                </label><br />
+                <label for="other" class="gender">
+                    <input id="other" type="radio" name="gender" /> אחר
+                </label>
+                <br />
+                <br />
+                <label for="phonenumber">
+                    טלפון נייד* <br>
+                    <input id="phonenumber" type="tel" placeholder="הזן טלפון" required=""><br>
+                </label>
+
+                <br /><br />
+
+                <fieldset>
+                    <legend>סיבת הפניה:</legend>
+                    <label for="problem">
+                        <input id="problem" type="checkbox">שאלה   <br>
+                    </label>
+
+                    <label for="problem2">
+                        <input id="problem2" type="checkbox">נר שלא צלח <br>
+                    </label>
+
+                    <label for="problem3">
+                        <input id="problem3" type="checkbox">ישנה טעות באתר <br>
+                    </label>
+
+                    <label for="problem4">
+                        <input id="problem4" type="checkbox">אחר <br>
+                    </label>
+                </fieldset>
+
+                <br>
+                תוכן הפניה: <br>
+                <textarea id="myText" placeholder="הזן תוכן פניה" row="8"> </textarea> <br>
+                <input type="submit" id="send" value="שלח">
+                <div id="feedback"></div>
+            </div>
+        </form>
+
+        <footer>
+            <span>
+                <span> <a href="map.html">מפת אתר</a> </span> &nbsp;|&nbsp;
+                <span> <a href="contact.html">צור קשר</a> </span> &nbsp;|&nbsp;
+                <span> <a href="odot.html">אודות</a> </span> &nbsp;&nbsp;
+                <a href="index.html">
+                    <img class="logo" src="styles/logo.jpg" id="footerlogo" alt="Logo">
+                </a>
+            </span>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+
+
+
